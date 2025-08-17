@@ -4,9 +4,34 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
+    <nav class="bg-gray-900 p-1">
+      <ul class="flex justify-around gap-8">
+        <li class="text-white text-sm">Phone: +91 9876543210</li>
+        <li class="text-white text-sm">Email: test@gmail.com</li>
+        <li class="text-white text-sm">Connect With Us!</li>
+      </ul>
+    </nav>
+    <nav class="bg-blue-950">
+      <ul class="flex justify-between gap-18 p-4 mx-4">
+        <div>
+          <li class="text-white font-semibold text-lg">LOGO</li>
+        </div>
+        <div class="flex gap-12">
+          <li class="text-white font-medium">Menu 1</li>
+          <li class="text-white font-medium">Menu 2</li>
+          <li class="text-white font-medium">Menu 3</li>
+          <li class="text-white font-medium">Menu 4</li>
+          <li class="text-white font-medium">Menu 5</li>
+        </div>
+        <div class="flex gap-4">
+            <li class="text-white font-medium">User</li>
+            <li class="text-white font-medium">Login</li>
+        </div>
+      </ul>
+    </nav>
     <h1>Hello World!</h1>
     <button onclick="greet()">Click Me!</button>
     <script src="script.js"></script>
